@@ -96,7 +96,7 @@ curl -s "$BASE/v1/rollinace-api/live/quota" \
 ## 仓库结构
 
 ```
-ra_live_api/
+rollinace_live_api/
 ├── README.md                      # 本文档（快速上手）
 ├── docs/
 │   ├── API_REFERENCE.md           # 直播/重播任务：完整接口参考（字段/错误码/状态表）
