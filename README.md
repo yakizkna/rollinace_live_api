@@ -4,7 +4,7 @@
 
 | 接口 | 域名 | 说明 | 文档 |
 |---|---|---|---|
-| **直播/重播任务 API** | `https://gateway.yakidev.top`（统一网关） | 管理「棒球速报」的直播 / 重播自动运营任务：创建任务（`live`/`replay`，创建后自动启动）、查询任务状态、关闭任务、查询调用额度 | [docs/API_REFERENCE.md](docs/API_REFERENCE.md) |
+| **直播/重播任务 API** | `https://gateway.yakidev.top`（统一网关） | 管理「棒球速报」的直播 / 重播自动运营任务：创建任务（`live`/`replay`，创建后自动启动）、查询任务状态、关闭任务、查询调用额度 | [doc/API_REFERENCE.md](doc/API_REFERENCE.md) |
 
 任务 API 能力：
 
@@ -98,7 +98,7 @@ curl -s "$BASE/v1/rollinace-api/live/quota" \
 ```
 rollinace_live_api/
 ├── README.md                      # 本文档（快速上手）
-├── docs/
+├── doc/
 │   ├── API_REFERENCE.md           # 直播/重播任务：完整接口参考（字段/错误码/状态表）
 │   └── USAGE_EXAMPLES.md          # 多语言使用用例（curl / Python / Node）
 ├── examples/
@@ -112,8 +112,8 @@ rollinace_live_api/
     └── rollinace-api-client/      # Agent Skill：直播/重播任务 API
 ```
 
-- 直播/重播任务完整接口明细见 [docs/API_REFERENCE.md](docs/API_REFERENCE.md)。
-- 多语言使用用例见 [docs/USAGE_EXAMPLES.md](docs/USAGE_EXAMPLES.md) 与 [examples/](examples/)。
+- 直播/重播任务完整接口明细见 [doc/API_REFERENCE.md](doc/API_REFERENCE.md)。
+- 多语言使用用例见 [doc/USAGE_EXAMPLES.md](doc/USAGE_EXAMPLES.md) 与 [examples/](examples/)。
 - 供其他 AI Agent 调用的 Skill：直播/重播任务见 [skills/rollinace-api-client/](skills/rollinace-api-client/SKILL.md)。
 
 ---

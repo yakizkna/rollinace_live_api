@@ -101,4 +101,4 @@ curl -s "$BASE/v1/rollinace-api/live/quota" \
 
 ## 完整参考
 
-接口字段、错误码速查表、多语言示例见本技能附带的 `references/api_quick_ref.md`；仓库根目录的 `docs/API_REFERENCE.md` 与 `docs/USAGE_EXAMPLES.md` 也可直接引用。仓库 `examples/` 目录下提供 bash / Python / Node.js 可运行示例。
+接口字段、错误码速查表、多语言示例见本技能附带的 `references/api_quick_ref.md`；仓库根目录的 `doc/API_REFERENCE.md` 与 `doc/USAGE_EXAMPLES.md` 也可直接引用。仓库 `examples/` 目录下提供 bash / Python / Node.js 可运行示例。
