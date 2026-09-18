@@ -6,7 +6,7 @@ A public API documentation and examples repository for integrators. This repo pr
 
 | API | Domain | Description | Docs |
 |---|---|---|---|
-| **Live/Replay Task API** | `https://gateway.yakidev.top` (unified gateway) | Manage the live / replay auto-operations tasks of "baseball realtime report": create tasks (`live`/`replay`, auto-started on creation), query task status, close tasks, query usage quota | [doc/API_REFERENCE.md](doc/API_REFERENCE.md) |
+| **Live/Replay Task API** | `https://gateway.yakidev.top` (unified gateway) | Manage the live / replay auto-operations tasks of "baseball realtime report": create tasks (`live`/`replay`, auto-started on creation), query task status, close tasks, query usage quota | [doc/API_REFERENCE.en.md](doc/API_REFERENCE.en.md) |
 
 Task API capabilities:
 
@@ -114,8 +114,8 @@ rollinace_live_api/
     └── rollinace-api-client/      # Agent Skill: Live/Replay task API
 ```
 
-- Full live/replay task API details: [doc/API_REFERENCE.md](doc/API_REFERENCE.md).
-- Multi-language usage examples: [doc/USAGE_EXAMPLES.md](doc/USAGE_EXAMPLES.md) and [examples/](examples/).
+- Full live/replay task API details: [doc/API_REFERENCE.en.md](doc/API_REFERENCE.en.md).
+- Multi-language usage examples: [doc/USAGE_EXAMPLES.en.md](doc/USAGE_EXAMPLES.en.md) and [examples/](examples/).
 - Skill for other AI agents: Live/Replay task API at [skills/rollinace-api-client/](skills/rollinace-api-client/SKILL.md).
 
 ---
