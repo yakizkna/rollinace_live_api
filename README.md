@@ -1,5 +1,7 @@
 # Rollin Ace 直播/重播任务 API（棒球速报自动运营）
 
+> **Language / 语言**: [中文](README.md) · [English](README.en.md)
+
 面向接入方的公开 API 文档与示例仓库。本仓库提供「棒球速报」直播 / 重播自动运营任务接口，接入方**只需要知道本仓库文档中的域名与接口**，无需关心后端实现：
 
 | 接口 | 域名 | 说明 | 文档 |
@@ -123,3 +125,9 @@ rollinace_live_api/
 - 本仓库为**公开文档仓库**，只包含公开契约（直播/重播任务：`https://gateway.yakidev.top/v1/rollinace-api/live/*`），**不包含**任何内部路径、源站地址或密钥。
 - 请勿在本仓库中提交任何真实凭证、密钥或 `.env` 文件（已通过 `.gitignore` 拦截常见情况）。
 - 直播/重播任务鉴权失败统一返回 `HTTP 401`：`{ "error": "unauthorized" }`。
+
+---
+
+## License
+
+[MIT](LICENSE) — ©2026 yakizkna
